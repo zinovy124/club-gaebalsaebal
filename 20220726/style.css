@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 78, 0);
+  height: 100vh;
+}
+
+div {
+  background-color: rgb(193, 103, 0);
+  width: 100vw;
+  height: 30px;
+  position: fixed;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+body div:last-child > div {
+  height: 10px;
+  background-color: rgb(250, 155, 30);
+}
+
+ul {
+  background-color: cornflowerblue;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+li {
+  padding: 10px;
+}
+
+ol {
+  background-color: tomato;
+}
+
+dl {
+  background-color: hotpink;
+  padding: 10px;
+}
+
+blockquote {
+  color: white;
+}

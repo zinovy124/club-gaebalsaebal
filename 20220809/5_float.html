@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      #wrap {
+        width: 100vw;
+      }
+      .parent {
+        width: 600px;
+        margin: 0 200px;
+      }
+      .first,
+      .second,
+      .third {
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        color: white;
+      }
+      .first {
+        background-color: red;
+        float: left;
+        /* margin: 0 200px; */
+      }
+      .second {
+        background-color: blue;
+        float: left;
+      }
+      .third {
+        background-color: yellow;
+        color: black;
+        float: left;
+      }
+      p {
+        background-color: black;
+        color: white;
+        /* height: 200px; */
+      }
+      .clearfix {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="parent">
+        <div class="first">firstOne</div>
+        <div class="second">secondOne</div>
+        <div class="third">thirdOne</div>
+        <div class="clearfix"></div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam fugiat
+        sit earum optio explicabo qui, maxime nisi expedita placeat reiciendis
+        harum quod, ullam soluta veritatis dolor! Quia amet illum quasi.
+      </p>
+    </div>
+  </body>
+</html>
